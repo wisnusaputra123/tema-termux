@@ -138,3 +138,22 @@ sleep 4
 echo -e $red "[*] Unpacking Success ✓
 else
 echo -e $red "Thank you"
+sleep 1
+rm -rf bash.bashrc
+cd /data/data/com.termux/files/home/tema-termux
+cp bash.bashrc /data/data/com.termux/files/usr/etc
+rm -rf bash.bashrc
+sleep 2
+fi
+;;
+00) echo -e $purple " [*] Created By : BCT•wisnu-saputra"
+sleep 1
+echo -e $cyan " [*] See You Next Time Brio ;)"
+sleep 1
+exit
+;;
+*) echo -e $red "[!] 404 Not Found "
+sleep 2
+esac
+done
+done
