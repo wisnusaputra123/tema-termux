@@ -508,3 +508,15 @@ cp bash.bashrc /data/data/com.termux/files/usr/etc
 rm -rf bash.bashrc
 sleep 2
 fi
+;;
+00) echo -e $purple " [*] Created By : Wisnu#saputra"
+sleep 1
+echo -e $cyan " [*] Thank You For You Support This Script:)"
+sleep 1
+exit
+;;
+*) echo -e $red "[!] 404 Not Found [!] "
+sleep 2
+esac
+done
+done
