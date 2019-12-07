@@ -38,11 +38,11 @@ do
 echo
 echo -e $blue "                    Tampilan Exs"
 echo -e $red "<|--------------------------------------------------------|>"
-echo -e $red "[01] Termux BoOm"
-echo -e $red "[02] Termux Samurai"
-echo -e $red "[03] Termux Shuriken "
-echo -e $white "[04] Termux Theme Five Finger"
-echo -e $white "[05] Termux Theme Anonymouse"
+echo -e $red "[1] Termux BoOm"
+echo -e $red "[2] Termux Samurai"
+echo -e $red "[3] Termux Shuriken "
+echo -e $white "[4] Termux Theme Five Finger"
+echo -e $white "[5] Termux Theme Anonymouse"
 echo -e $white "<|--------------------------------------------------------|>"
 
 echo
