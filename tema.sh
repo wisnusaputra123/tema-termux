@@ -12,13 +12,13 @@ white='\e[1;37m'
 
 echo
 
-echo -e $white "*××××××××××××××××××××××××××××××××××××××××××××××××××××××*"
+echo -e $yellow "*××××××××××××××××××××××××××××××××××××××××××××××××××××××*"
 echo -e $red"Author     : "$lgreen"BCT•wisnu-saputra"
 echo -e $red"Instagram  : "$yellow"wisnu_as123"
 echo -e $white"github   : "$white"https://github.com/wisnusaputra123"
 echo -e $white"WhatsApp : "$red"085718945758"
 echo
-echo -e $white "*××××××××××××××××××××××××××××××××××××××××××××××××××××××*"
+echo -e $yellow "*××××××××××××××××××××××××××××××××××××××××××××××××××××××*"
 echo
 trap ctrl_c INT
 ctrl_c() {
